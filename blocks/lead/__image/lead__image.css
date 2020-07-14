@@ -1,0 +1,13 @@
+.lead__image {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  margin-bottom: 8px;
+}
+
+/*Медиа-запрос для регулирования свойств при разном разрешении экрана*/
+@media screen and (max-width: 768px) {
+  .lead__image {
+    margin-bottom: 6px;
+  }
+}

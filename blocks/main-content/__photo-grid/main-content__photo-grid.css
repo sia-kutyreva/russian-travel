@@ -1,0 +1,22 @@
+.main-content__photo-grid {
+  margin: 88px 0 98px 0;
+}
+
+/*Медиа-запросы для регулирования свойств при разном разрешении экрана*/
+@media screen and (max-width: 768px) {
+  .main-content__photo-grid {
+    margin: 84px 0 91px 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .main-content__photo-grid {
+    margin: 60px 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .main-content__photo-grid {
+    margin: 66px 0;
+  }
+}

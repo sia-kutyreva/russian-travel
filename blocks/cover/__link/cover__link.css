@@ -1,0 +1,20 @@
+.cover__link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  background: rgba(42, 44, 47, 0.3);
+  z-index: 1;
+  transition: background 0.8s ease;
+}
+
+/*Свойства элемента при наведении курсора*/
+.cover__link:hover {
+  background: rgba(42, 44, 47, 0.8);
+}

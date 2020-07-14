@@ -1,0 +1,17 @@
+.intro__wrapper {
+  width: 690px;
+}
+
+/*Медиа-запросы для регулирования свойств при разном разрешении экрана*/
+@media screen and (max-width: 768px) {
+  .intro__wrapper {
+    width: calc(100% - 48px);
+    transition: width 1s ease;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro__wrapper {
+    width: calc(100% - 32px);
+  }
+}

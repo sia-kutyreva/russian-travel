@@ -1,0 +1,14 @@
+.place__website {
+  max-width: 456px;
+  grid-area: website;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+/*Медиа-запрос для регулирования свойств при разном разрешении экрана*/
+@media screen and (max-width: 600px) {
+  .place__website {
+    display: none;
+  }
+}

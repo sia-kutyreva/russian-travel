@@ -1,0 +1,13 @@
+/*Подключение стилей элементов блока*/
+@import url('./__lead/main-content__lead.css');
+@import url('./__photo-grid/main-content__photo-grid.css');
+@import url('./__places/main-content__places.css');
+@import url('./__cover/main-content__cover.css');
+
+.main-content {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

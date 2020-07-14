@@ -1,0 +1,24 @@
+/*Подключение стилей элементов блока*/
+@import url('./__link/cover__link.css');
+@import url('./__title/cover__title.css');
+@import url('./__subtitle/cover__subtitle.css');
+@import url('./__overlay/cover__overlay.css');
+
+.cover {
+  position: relative;
+  width: 92.5%;
+  padding-bottom: 57.81%;
+  background-image: url('../../images/cover-train.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+/*Медиа-запрос для регулирования свойств при разном разрешении экрана*/
+@media all and (max-width: 1024px) {
+  .cover {
+    width: 100%;
+    transition: width 1s ease;
+    padding-bottom: 62.5%;
+  }
+}

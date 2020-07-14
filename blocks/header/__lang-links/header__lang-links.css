@@ -1,0 +1,16 @@
+.header__lang-links {
+  display: flex;
+  justify-content: space-between;
+  margin: 18px 0 0 0;
+  list-style: none;
+  padding: 0;
+}
+
+/*Медиа-запрос для регулирования свойств при разном разрешении экрана*/
+@media screen and (max-width: 320px) {
+  .header__lang-links {
+    height: 24px;
+    margin: 13px 0 0 0;
+  }
+}
+

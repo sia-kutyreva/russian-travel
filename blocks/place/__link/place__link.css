@@ -1,0 +1,19 @@
+.place__link {
+  width: fit-content;
+  border-bottom: 1.4px solid #FFFFFF;
+  margin-bottom: 5px;
+  color: #FFFFFF;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration: none;
+}
+
+/*Медиа-запрос для регулирования свойств при разном разрешении экрана*/
+@media screen and (max-width: 768px) {
+  .place__link {
+    margin: 0;
+  }
+}

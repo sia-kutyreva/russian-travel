@@ -1,0 +1,16 @@
+.main-content__places {
+  margin-bottom: 92px;
+}
+
+/*Медиа-запросы для регулирования свойств при разном разрешении экрана*/
+@media screen and (max-width: 768px) {
+  .main-content__places {
+    margin-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .main-content__places {
+    margin-bottom: 61px;
+  }
+}

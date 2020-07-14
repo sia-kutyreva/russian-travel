@@ -1,0 +1,30 @@
+.cover__title {
+  margin: 0 0 32px 0;
+  width: 560px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  z-index: 2;
+  }
+
+  /*Медиа-запросы для регулирования свойств при разном разрешении экрана*/
+  @media screen and (max-width: 768px) {
+    .cover__title {
+      margin: 0 0 6.7% 0;
+      width: 72.9%;
+      font-size: 9.37vw;
+      line-height: 1.06;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    .cover__title {
+      font-size: 10vw;
+      line-height: 1.1;
+      width: 75%;
+    }
+  }

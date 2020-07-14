@@ -1,0 +1,11 @@
+.place__article {
+  margin: 0;
+  grid-area: artical;
+}
+
+/*Медиа-запрос для регулирования свойств при разном разрешении экрана*/
+@media screen and (max-width: 600px) {
+  .place__article {
+    width: 100%;
+  }
+}

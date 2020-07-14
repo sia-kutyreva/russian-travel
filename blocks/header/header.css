@@ -1,0 +1,27 @@
+/*Подключение стилей элементов блока*/
+@import url('./__logo/header__logo.css');
+@import url('./__nav/header__nav.css');
+@import url('./__lang-links/header__lang-links.css');
+@import url('./__lang-link/header__lang-link.css');
+@import url('./__lang-link/_active/header__lang-link_active.css');
+
+.header {
+  width: calc(100% - 96px);
+  display: flex;
+  justify-content: space-between;
+}
+
+/*Медиа-запросы для регулирования свойств при разном разрешении экрана*/
+@media screen and (max-width: 768px) {
+  .header {
+    width: calc(100% - 48px);
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header {
+    width: calc(100% - 32px);
+    height: 42px;
+    transition: height 1s ease;
+  }
+}

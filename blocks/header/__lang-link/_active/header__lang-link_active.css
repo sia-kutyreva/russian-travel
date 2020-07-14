@@ -1,0 +1,4 @@
+/*Модификатор для ссылки на активную страницу*/
+.header__lang-link_active {
+  border-bottom: 1.35px solid white;
+}

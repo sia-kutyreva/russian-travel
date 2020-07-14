@@ -1,0 +1,25 @@
+.intro__title {
+  margin: 0 0 34px 0;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 3.375rem;
+  line-height: 1.07;
+  color: #FFFFFF;
+}
+
+/*Медиа-запросы для регулирования свойств при разном разрешении экрана*/
+@media screen and (max-width: 768px) {
+  .intro__title {
+    font-size: 54px;
+    line-height: 1.07;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro__title {
+    max-width: 210px;
+    font-size: 32px;
+    line-height: 1.1;
+  }
+}

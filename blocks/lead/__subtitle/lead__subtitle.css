@@ -1,0 +1,35 @@
+.lead__subtitle {
+  width: 640px;
+  height: 72px;
+  margin: 0 0 6.5% 0;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.875rem;
+  line-height: 1.2;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+/*Медиа-запросы для регулирования свойств при разном разрешении экрана*/
+@media screen and (max-width: 1024px) {
+  .lead__subtitle {
+    margin: 0 0 56px 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead__subtitle {
+    width: 83.34%;
+    font-size: 3.9vw;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead__subtitle {
+    width: calc(100% - 32px);
+    margin: 0 0 8px 0;
+    font-size: 5vw;
+    line-height: 1.25;
+  }
+}

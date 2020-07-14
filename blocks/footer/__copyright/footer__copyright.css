@@ -1,0 +1,29 @@
+.footer__copyright {
+  margin: 0;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: right;
+  color: #FFFFFF;
+}
+
+/*Медиа-запросы для регулирования свойств при разном разрешении экрана*/
+@media all and (max-width: 720px) {
+  .footer__copyright {
+    margin-top: 16px;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .footer__copyright {
+    text-align: left;
+  }
+}
+
+@media all and (max-width: 320px) {
+  .footer__copyright {
+    line-height: 1;
+  }
+}

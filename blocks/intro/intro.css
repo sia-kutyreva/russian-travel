@@ -1,0 +1,29 @@
+/*Подключение стилей элементов блока*/
+@import url('./__wrapper/intro__wrapper.css');
+@import url('./__title/intro__title.css');
+@import url('./__text/intro__text.css');
+@import url('./__list/intro__list.css');
+@import url('./__fragment/intro__fragment.css');
+
+.intro {
+  width: 76.8%;
+  min-height: 428px;
+  transition: width 1s ease;
+  display: flex;
+}
+
+/*Медиа-запросы для регулирования свойств при разном разрешении экрана*/
+@media screen and (max-width: 1024px) {
+  .intro {
+    width: 90.6%;
+    transition: width 1s ease;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    width: 100%;
+    justify-content: center;
+    transition: width 1s ease;
+  }
+}

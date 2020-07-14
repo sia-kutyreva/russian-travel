@@ -1,0 +1,25 @@
+.photo-grid__wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+  grid-gap: 16px;
+}
+
+/*Медиа-запросы для регулирования свойств при разном разрешении экрана*/
+@media screen and (max-width: 1024px) {
+  .photo-grid__wrapper {
+    grid-gap: 14px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .photo-grid__wrapper {
+    grid-gap: 16px;
+    place-items: center;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .photo-grid__wrapper {
+    grid-gap: 12px;
+  }
+}

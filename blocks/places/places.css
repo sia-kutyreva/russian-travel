@@ -1,0 +1,29 @@
+.places {
+  width: calc(100% - 296px);
+  display: grid;
+  grid-gap: 85px;
+}
+
+/*Медиа-запросы для регулирования свойств при разном разрешении экрана*/
+@media screen and (max-width: 1024px) {
+  .places {
+    width: calc(100% - 96px);
+    transition: width 1s ease;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .places {
+    width: calc(100% - 48px);
+    grid-gap: 72px;
+    transition: width 1s ease;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .places {
+    width: 100%;
+    grid-gap: 48px;
+    transition: width 1s ease;
+  }
+}

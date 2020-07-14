@@ -1,0 +1,27 @@
+/*Подключение стилей элементов блока*/
+@import url('./__wrapper/photo-grid__wrapper.css');
+@import url('./__item/photo-grid__item.css');
+
+.photo-grid {
+  width: 92.5%;
+  min-height: 671px;
+}
+
+/*Медиа-запросы для регулирования свойств при разном разрешении экрана*/
+@media screen and (max-width: 1024px) {
+  .photo-grid {
+    width: 90.625%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .photo-grid {
+    width: 93.75%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .photo-grid {
+    width: 90%;
+  }
+}
