@@ -1,11 +1,12 @@
 /*Подключение стилей элементов блока*/
-@import url('./__logo/header__logo.css');
-@import url('./__nav/header__nav.css');
 @import url('./__lang-links/header__lang-links.css');
 @import url('./__lang-link/header__lang-link.css');
 @import url('./__lang-link/_active/header__lang-link_active.css');
 
 .header {
+  font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
   width: calc(100% - 96px);
   display: flex;
   justify-content: space-between;
@@ -21,7 +22,6 @@
 @media screen and (max-width: 320px) {
   .header {
     width: calc(100% - 32px);
-    height: 42px;
     transition: height 1s ease;
   }
 }

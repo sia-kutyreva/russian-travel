@@ -6,6 +6,7 @@
 @import url('./__fragment/intro__fragment.css');
 
 .intro {
+  font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
   width: 76.8%;
   min-height: 428px;
   transition: width 1s ease;
@@ -16,7 +17,6 @@
 @media screen and (max-width: 1024px) {
   .intro {
     width: 90.6%;
-    transition: width 1s ease;
   }
 }
 
@@ -24,6 +24,5 @@
   .intro {
     width: 100%;
     justify-content: center;
-    transition: width 1s ease;
   }
 }

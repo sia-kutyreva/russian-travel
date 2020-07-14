@@ -5,6 +5,7 @@
 @import url('./__caption/lead__caption.css');
 
 .lead {
+  font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
   width: 76.8%;
   max-height: 1005px;
   display: flex;

@@ -8,6 +8,7 @@
 @import url('__paragraph/place__paragraph.css');
 
 .place {
+  font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
   width: 100%;
   display: grid;
   grid-template-areas:

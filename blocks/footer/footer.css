@@ -5,6 +5,9 @@
 @import url('./__copyright/footer__copyright.css');
 
 .footer {
+  font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
   width: calc(100% - 96px);
   min-height: 18px;
   display: flex;

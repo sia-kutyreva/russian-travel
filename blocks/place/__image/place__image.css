@@ -7,7 +7,6 @@
 /*Медиа-запросы для регулирования свойств при разном разрешении экрана*/
 @media screen and (max-width: 600px) {
   .place__image {
-    width: 100%;
     margin: 0 0 32px 0;
   }
 }
