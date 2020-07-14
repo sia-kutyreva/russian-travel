@@ -1,5 +1,5 @@
 .cover__title {
-  margin: 0 0 32px 0;
+  margin: 20.7% 0 32px 0;
   width: 560px;
   font-family: 'Inter';
   font-style: normal;
@@ -12,9 +12,15 @@
   }
 
   /*Медиа-запросы для регулирования свойств при разном разрешении экрана*/
+  @media screen and (max-width: 1024px) {
+    .cover__title {
+      margin-top: 19.04%;
+    }
+  }
+  
   @media screen and (max-width: 768px) {
     .cover__title {
-      margin: 0 0 6.7% 0;
+      margin: 15% 0 4.17% 0;
       width: 72.9%;
       font-size: 9.37vw;
       line-height: 1.06;
@@ -23,6 +29,7 @@
 
   @media screen and (max-width: 320px) {
     .cover__title {
+      margin: 9.37% 0 15px 0;
       font-size: 10vw;
       line-height: 1.1;
       width: 75%;

@@ -1,5 +1,5 @@
 .cover__subtitle {
-  margin: 0;
+  margin: 0 0 20.7% 0;
   width: 360px;
   font-family: 'Inter';
   font-style: normal;
@@ -12,8 +12,15 @@
 }
 
 /*Медиа-запросы для регулирования свойств при разном разрешении экрана*/
+@media screen and (max-width: 1024px) {
+  .cover__subtitle {
+    margin-bottom: 19.04%;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .cover__subtitle {
+    margin-bottom: 15%;
     width: 46.9%;
     font-size: 2.4vw;
     line-height: 1.2;
@@ -22,6 +29,7 @@
 
 @media screen and (max-width: 320px) {
   .cover__subtitle {
+    margin-bottom: 9.37%;
     font-size: 14px;
     line-height: 16px;
     width: 85%;
